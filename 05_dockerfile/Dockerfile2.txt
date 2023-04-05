@@ -1,0 +1,5 @@
+FROM ubuntu:latest
+
+RUN echo '(shell form) 안뇽'
+RUN ["echo", "(exec form) 안뇽"]
+RUN ["bash", "-c", "echo '(exec form) 안뇽'"]
